@@ -15,6 +15,9 @@ public class Main {
                 number++;
                 numberSum = line.replaceAll("\\D", "");
                 sum = sum + Integer.parseInt(numberSum);
+                System.out.println(numberSum);
+
+                System.out.println("Общий балл" + sum);
             }
         } catch (IOException e) {
             System.out.println("Файл не найден");
