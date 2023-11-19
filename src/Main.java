@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-
+//Веремеенко
 public class Main {
     public static void main(String[] args) {
         int number = 0;
